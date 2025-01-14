@@ -19,5 +19,24 @@ print(lista[0])
 
 lista[1] = "Jorge"
 
+#creo un conjunto de datos (set)
+#El orden de los datos no es fijo pero no se pueden cambiar, sí se puede
+#redefinir el conjunto (como declarar nuevamente una variable)
+#pero no cambiar uno de los datos del "conjunto"
+
+#Además no se accede a datos por índice y no se accede a elementos 
+#duplicados
+
+conjunto = {"David Meynet","Soy David", True, 1.85}
+
+#creo un dicionario (dict)
+diccionario = {
+    "Nombre" : "David",
+    "Edad": 35,
+    "Trabajo": "Freelancer"
+}
+
+print(diccionario["Nombre"])
+
 #imprimo el indice 1 de la lista para corroborar el cambio
 print(lista[1])
