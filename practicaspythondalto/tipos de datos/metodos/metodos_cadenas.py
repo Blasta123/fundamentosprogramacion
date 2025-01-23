@@ -5,6 +5,14 @@ resultado = "Que hacemoo!!" + cadena1.upper() + " " + cadena2.upper()
 
 print(resultado)
 
+#funcion que nos permite saber que operador podemos usar con la variable
+#o dato pero si no le damos la funcion print, no muestra nada en pantalla
+
+dir(cadena1) #no se muestra en pantalla
+print(dir(cadena1)) # se muestra en pantalla la lista de operadores
+
+
+
 #Operadores Dato.()
 #convierte a minusculas
 
